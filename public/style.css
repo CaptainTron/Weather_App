@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: wheat;
+}
+header{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.DisplayTodoList{
+    /* border: 2px solid wheat; */
+    text-align: center;
+}
+p{
+    margin: 5px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 28px;
+}
+p:hover{
+    background-color: gray;
+}
+.strike{
+    text-decoration: line-through;
+    color: red;
+}
+.clear{
+    margin: 10px;
+    background-color: black;
+    color: red;
+    border-radius: 9px;
+    padding: 9px;
+    border: 1px solid red;
+}
+.clear:hover{
+    background-color: red;
+    color: black;
+}
+form{
+    text-align: center;
+    margin: 3%;
+}
+form button{
+    background-color: transparent;
+    color: wheat;
+    border: 1px solid wheat;
+    margin: 9px;
+    border-radius: 9px;
+    padding: 9px;
+}
+button:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+    transform:  translate(10px 10px);
+}
+form input{
+    width: 60%;
+    height: 50px;
+    padding: 9px;
+    border-radius: 9px;
+    font-size: 40px;
+    background-color: transparent;
+    color: wheat;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.time{
+    color: green;
+}
